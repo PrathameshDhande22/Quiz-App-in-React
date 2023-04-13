@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Cormorant:wght@700&family=Ephesis&family=Kotta+One&family=Noto+Serif:wght@700&display=swap');
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header>.mainicon {
+  width: 50px;
+}
+
+.header>.maintext {
+  font-size: 23px;
+  margin-left: 16px;
+  font-family: 'Noto Serif', serif;
+  cursor: default;
+}
+
+.mainicon:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.typing {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: black;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.startbtn {
+  margin-top: 50px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.modalpopup {
+  background-color: black;
+}
+
+
+.about {
+  margin-top: 20px;
+  padding: 10px;
+  color: black;
+}
+
+.about-heading {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  border-bottom: 4px solid red;
+}
+
+.about-details {
+  font-family: 'Kotta One', serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.quiz-wel {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 29px;
+  color: black;
+}
+
+.scorecard {
+  text-align: center;
+  font-size: 27px;
+  color: black;
+  margin: 20px;
+  border: 4px dashed black;
+  padding: 8px 0px;
+}
+
+.scoreno {
+  font-family: 'Ephesis', cursive;
+  font-weight: 900;
+}
+
+.quizwindow {
+  background-color: rgb(100, 5, 196);
+  color: white;
+  border: 8px solid white;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 15px;
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+}
+
+.quiz-ques {
+  font-size: 25px;
+}
+
+.quiz-ques::before {
+  content: 'Q. ';
+}
+
+.quiz-opt {
+  display: grid;
+  margin-top: 10px;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+}
+
+.opt {
+  font-size: 23px;
+  background-color: rgb(135, 87, 224);
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
+.opt:hover {
+  background-color: rgb(128, 0, 255);
+  border: 2px solid white;
+}
+
+.quiz-desc {
+  margin-top: 10px;
+}
+
+.errimg {
+  width: 10%;
+}
+
+.error {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.quiz-quescount {
+  color: yellow;
+  font-size: 22px;
+}
+
+.loadingbar {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.loadingbar>span {
+  font-size: 24px;
+  color: black;
+  padding-left: 10px;
+}
+
+
+.winnerbox {
+  color: white;
+  background-color: rgb(154, 1, 177);
+  font-size: 20px;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
