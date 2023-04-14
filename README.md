@@ -8,6 +8,19 @@ This is the First Project for React Series in Web Development Tutorial.
 
 This is a quiz app built using React with Material UI, MDBBootstrap, React-Bootstrap, and Redux. The app uses a quiz API to generate 10 questions per quiz. Each correct answer gives the user a score of 10.
 
+## ScreenShots :
+1. HomePage of the App.
+![Home Page](./Screenshots/Img1.png)
+
+2. Asking User Name.
+![Name Dialog](./Screenshots/img2.png)
+
+3. Quiz Page.
+![Quiz Page](./Screenshots/Img3.png)
+
+4. Quiz Page when Wrong Option Selected.
+![Quiz Page wrong Selection](./Screenshots/Img4.png)
+
 ## Installation :
 
 To use the app, follow these steps:
