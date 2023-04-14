@@ -16,10 +16,10 @@ This is a quiz app built using React with Material UI, MDBBootstrap, React-Boots
 ![Name Dialog](./Screenshots/img2.png)
 
 3. Quiz Page.
-![Quiz Page](./Screenshots/Img3.png)
+![Quiz Page](./Screenshots/img3.png)
 
 4. Quiz Page when Wrong Option Selected.
-![Quiz Page wrong Selection](./Screenshots/Img4.png)
+![Quiz Page wrong Selection](./Screenshots/img4.png)
 
 ## Installation :
 
