@@ -4,11 +4,8 @@ import { MDBCol, MDBFooter } from "mdb-react-ui-kit";
 
 export const Footer = () => {
   return (
-    <div className="footer">
-      <MDBFooter
-        bgColor="dark"
-        className="text-left text-white text-lg-left fixed-botton"
-      >
+    <div className="footer fixed-bottom">
+      <MDBFooter bgColor="dark" className="text-left text-white text-lg-left">
         <MDBCol className="d-flex justify-content-between p-3 flex-wrap">
           <span>
             Made With <FavoriteIcon style={{ color: "red" }} /> By Prathamesh

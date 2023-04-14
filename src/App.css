@@ -8,6 +8,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  z-index: 10;
 }
 
 .header>.mainicon {
@@ -65,6 +66,7 @@
   font-size: 20px;
   text-align: justify;
   margin-top: 5px;
+  padding-bottom: 30%;
 }
 
 .quiz-wel {
@@ -176,4 +178,8 @@
   padding: 10px;
   text-align: center;
   margin: 10px;
+}
+
+.quizpg{
+  margin-bottom: 30%;
 }
